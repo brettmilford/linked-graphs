@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>data vis trial</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.js"></script>
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/d3.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Search for the next Earth!</h1>
+    </header>
+    <main>
+        <h2>The Open Exoplanet Catalogue</h2>
+        <p>With the recent discovery of the Trappist-1 planetary system and its Earth-sized planets, Exoplanet research has garnered much attention. The following tools allow you to explore the <b>Open Exoplanet Catalogue</b> to find your own Earth-like planet! This collection currently contains over 3000 planets. The data is presented as is but has been initially filtered to a subset which have Surface Temperatures around that of Earth's.</p>
+        <h2>Exploring the data</h2>
+        <p class="list">Use the Parallel Coordinates (PC) chart to refine your selection of planets - draw on each line to select a range; then explore your selection further in the Bar chart by selecting different attributes for the y-axis and get accurate values from the individual tooltips. With these tools see if you can answer the following questions:</p>
+        <ul class="list">
+            <li>What basic conditions does Earth have?</li>
+            <li>What are the similarities and differences between Earth and other planets?</li>
+        </ul>
+        <div id="group1"></div>
+        <div id="group2"></div>
+        <hr />
+    </main>
+    <footer>
+        <small>
+                <p>Copyright ©2018 <a href="http://github.com/brettmilford/datavis-trial">Brett Milford</a></p>
+            </small>
+    </footer>
+    <script src="js/graphs.js"></script>
+</body>
+
+</html>

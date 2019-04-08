@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans|PT+Serif');
+body {
+    line-height: 1.6;
+    font-size: 18px;
+    color: #333;
+    padding: 0 10px;
+    font-family: 'PT Serif', serif;
+}
+
+p,
+b,
+ul,
+hr,
+h1,
+h2,
+h3,
+header,
+footer {
+    margin: 40px auto;
+    max-width: 650px;
+    clear: both;
+}
+
+.list {
+    margin: 0px auto;
+}
+
+p+ul.list {
+    padding-left: 5em
+}
+
+svg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    line-height: 1.2;
+}
+
+a {
+    color: steelblue;
+    word-wrap: break-word;
+    transition: 0.5s opacity;
+}
+
+a:hover {
+    opacity: 0.65;
+}
+
+a:not(:hover) {
+    text-decoration: none;
+}
+
+div {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+select,
+input {
+    display: inline-block;
+    float: right;
+}
+
+header,
+footer {
+    line-height: 1;
+}
+
+small {
+    line-height: 0.75;
+    text-align: right;
+}
